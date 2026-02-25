@@ -2,19 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-portfolio</title>
+    <title>Lasse Skøt | Web Developer | Portfolio</title>
+    <meta name="description" content="Portfolio of Lasse, a web developer specializing in performant, modern websites. ">
 
-    <!-- Link to your SASS entry file -->
+    <!-- Favicon -->
+     <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.svg">
+     <link rel="icon" type="image/png" sizes="96x96" href="/src/assets/favicon-96x96.png">
+     <link rel="icon" type="image/png" sizes="192x192" href="/src/assets/web-app-manifest-192x192.png">
+     <link rel="icon" type="image/png" sizes="512x512" href="/src/assets/web-app-manifest-512x512.png">
+     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/src/assets/apple-touch-icon.png">
+     <link rel="shortcut icon" href="/src/assets/favicon.ico">
+
+     <!-- SASS / CSS -->
     <link rel="stylesheet" href="/src/scss/main.scss">
   </head>
+
   <body>
-    <!-- Replace <div id="app"></div> in index.html with: -->
-    <div id="app">
-      <h1>Hello Portfolio!</h1>
-        <p>If you see this, your Vite + SASS setup is working!</p>
-    </div>
-    <script type="module" src="/src/js/main.js"></script>
+    <!-- Root container -->
+     <div id="app">
+
+      <header class="header" id="home">
+        <div class="header-content">
+          <nav class="navbar">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="logo-container">
+            <img src="/src/assets/ls-logo.png" alt="Logo for Lasse Skøt" />
+          </div>
+          <h1>Lasse Skøt - Web Developer</h1>
+        </div>
+      </header>
+
+      <section class="hero" id="hero">
+        <div class="hero-content">
+          <h1>PORTFOLIO</h1>
+          <button onclick="location.href='#contact'">Contact Me</button>
+        </div>
+      </section>
+     </div>
   </body>
 </html>
