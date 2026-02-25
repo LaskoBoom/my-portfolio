@@ -1,0 +1,26 @@
+// Base styles
+@use "base/reset";
+@use "base/typography";
+
+@use "layout/header";
+@use "layout/footer";
+
+@use "components/button";
+@use "components/card";
+
+@use "pages/hero";
+@use "pages/projects";
+
+body {
+  background-color: #f2f2f2;
+}
+
+#app {
+  h1 {
+    color: #38b000;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
