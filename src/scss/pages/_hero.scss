@@ -1,0 +1,39 @@
+.hero {
+  position: relative;
+  background-color: #ffffff;
+  padding-bottom: 2.5rem;
+
+  &__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    text-align: center;
+
+    h2 {
+        font-family: 'syncopate', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: 1.1em;
+        font-weight: 200;
+        text-transform: uppercase;
+        
+    }
+  }
+
+  .hero-animation-wrapper {
+    height: 400px;      // adjust height as needed
+    z-index: 0;
+
+    canvas {
+      width: 100% !important;
+      height: 100% !important;
+      display: block;
+    }
+  }
+}

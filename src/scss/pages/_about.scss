@@ -1,0 +1,14 @@
+.about {
+    padding-bottom: 2.5rem;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-family: 'Syncopate', sans-serif;
+            font-weight: 400;
+            padding-bottom: 0.5rem;
+        }
+    }
+}
