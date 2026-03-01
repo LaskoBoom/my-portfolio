@@ -1,0 +1,65 @@
+.contact {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    &__content {
+        justify-content: center;
+        text-align: center;
+
+        h2 {
+            font-family: 'Syncopate', sans-serif;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+
+    &__form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-top: 1.25rem;
+
+        input {
+            width: 100%;
+            min-height: 48px;
+            box-sizing: border-box;
+            font-size: 16px;
+            padding: 1rem;
+        }
+
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            min-height: 150px;
+            font-size: 16px;
+            padding: 1rem;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #888;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        label[for="name"] {
+            font-family: 'Syncopate', sans-serif;
+            text-transform: uppercase;
+            padding-top: 20px;
+        }
+
+        label[for="email"] {
+            font-family: 'Syncopate', sans-serif;
+            text-transform: uppercase;
+            padding-top: 20px;
+        }
+
+        label[for="message"] {
+            font-family: 'Syncopate', sans-serif;
+            text-transform: uppercase;
+            padding-top: 20px;
+        }
+    }
+}

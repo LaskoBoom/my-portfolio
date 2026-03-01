@@ -4,10 +4,14 @@
   padding-bottom: 2.5rem;
 
   &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 1.5rem;
     text-align: center;
+    gap: 1.25rem;
 
     h2 {
         font-family: 'syncopate', sans-serif;

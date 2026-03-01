@@ -120,16 +120,16 @@
       <!-- Contact -->
       <section class="contact" id="contact">
         <div class="container">
-          <div class="contact-content">
+          <div class="contact__content">
             <h2>Contact Me</h2>
-            <form>
+            <form class="contact__form">
               <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required>
+              <input type="text" id="name" name="name" placeholder="Write your full name here..." required>
               <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
+              <input type="email" id="email" name="email" placeholder="Write your email address here..." required>
               <label for="message">Message:</label>
-              <textarea name="message" id="message" required></textarea>
-              <button type="submit">Send</button>
+              <textarea name="message" id="message" maxlength="750" placeholder="Write your message here..." required></textarea>
+              <button type="submit" class="btn-send">Send</button>
             </form>
           </div>
         </div>
