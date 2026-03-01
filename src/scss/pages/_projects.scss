@@ -1,0 +1,80 @@
+.projects {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(92, 118, 182);
+        color: #ffffff;
+        padding-top: 42px;
+        padding-bottom: 42px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        h2 {
+            font-family: 'Syncopate', sans-serif;
+            text-transform: uppercase;
+            font-weight: 400;
+            padding-bottom: 1rem;
+        }
+
+        .swiper-wrapper {
+            padding-bottom: 0.5rem;
+        }
+    }
+
+    // Swiper container positioning
+    .swiper {
+        width: 100%;
+        position: relative;
+        padding: 1rem 0;
+    }
+
+    // Swiper spacing for slides
+    .swiper-slide {
+        padding: 0.5rem;
+    }
+
+    // Navigation arrows
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: #fff;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+
+        &::after {
+            font-size: 1.5rem;
+        }
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.4);
+        }
+    }
+
+    .swiper-button-next {
+        right: 0.5rem;
+    }
+
+    .swiper-button-prev {
+        left: 0.5rem;
+    }
+
+    // Pagination bullets
+
+    .projects__professional .swiper-pagination,
+    .projects__personal .swiper-pagination {
+        bottom: -3px; 
+    }
+
+    .swiper-pagination-bullet {
+        background-color: rgba(255, 255, 255, 0.5);
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #fff;
+    }
+}

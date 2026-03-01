@@ -1,0 +1,54 @@
+.project-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 288px;
+  margin: 0 auto;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+
+  img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+
+  &__info {
+    padding: 1rem;
+
+    h4 {
+      margin: 0 0 0.5rem;
+      font-size: 1.125rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      color: #555;
+    }
+
+    .btn-small {
+      display: inline-block;
+      margin-top: 0.5rem;
+      font-size: 0.875rem;
+      text-decoration: none;
+      background-color: rgb(92, 118, 182);
+      color: #fff;
+      padding: 0.4rem 0.8rem;
+      border-radius: 0.25rem;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: rgb(73, 96, 147);
+      }
+    }
+  }
+}
