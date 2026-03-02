@@ -30,7 +30,7 @@ const professionalProjects = [
     client: "www.konpsyk.dk", 
     description: "Search engine optimisation", 
     image: "src/assets/konpsyk-mobile.webp", 
-    link: "https://www.konpsyk.dk" 
+    link: "/project_konpsyk.html" 
   },
   { 
     title: "Demo Slide", 

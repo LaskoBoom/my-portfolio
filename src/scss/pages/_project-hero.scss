@@ -1,0 +1,15 @@
+.project-hero {
+
+    &__image-container {
+        width: 100%;
+        overflow: hidden;
+
+        img,
+        picture {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+
+}
