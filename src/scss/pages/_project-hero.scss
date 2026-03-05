@@ -1,15 +1,55 @@
 .project-hero {
+    display: flex;
+    flex-direction: column;
+
+    &__content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 
     &__image-container {
-        width: 100%;
+        max-width: 100%;
         overflow: hidden;
+        padding: 1.5rem;
+        margin-top: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 
-        img,
-        picture {
+        img {
+            max-width: 100%;
             width: 100%;
-            height: auto;
             display: block;
+            border-radius: 6px;
         }
     }
 
+    &__tech-stack {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    &__tech-stack-items {
+        text-align: center;
+        justify-content: center;
+    }
+
+    &__tech-stack-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            width: 32px;
+            height: 32px;
+            display: block;
+            transition: transform 0.2s ease;
+        }
+
+        svg:hover {
+            transform: scale(1.1);
+        }
+    }
 }
