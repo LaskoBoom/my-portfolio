@@ -31,7 +31,14 @@
         justify-content: center;
     }
 
-    &__tech-stack-items {
+    &__tech-stack-title {
+        font-size: 1em;
+        text-transform: uppercase;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    &__tech-stack-item {
         text-align: center;
         justify-content: center;
     }
@@ -41,14 +48,14 @@
         align-items: center;
         justify-content: center;
 
-        svg {
+        img {
             width: 32px;
             height: 32px;
             display: block;
             transition: transform 0.2s ease;
         }
 
-        svg:hover {
+        img:hover {
             transform: scale(1.1);
         }
     }

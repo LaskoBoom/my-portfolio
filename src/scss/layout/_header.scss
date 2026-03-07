@@ -17,7 +17,12 @@
         line-height: 0;
     }
 
-    &__title {
+    &__logo {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &__logo-title {
         font-family: 'Syncopate', sans-serif;
         text-align: center;
         text-transform: uppercase;
