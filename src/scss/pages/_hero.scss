@@ -21,12 +21,20 @@
         line-height: 1.2;
         font-size: 3em;
         text-transform: uppercase;
+
+        @media (min-width: 768px) {
+          font-size: 6em;
+        }
     }
 
     h3 {
         font-size: 1.1em;
         font-weight: 200;
         text-transform: uppercase;
+
+        @media (min-width: 768px) {
+          font-size: 1.8em;
+        }
     }
   }
 

@@ -19,11 +19,16 @@
         margin: 0;
         padding: 0;
         gap: 2rem;
+
+        @media (min-width: 768px) {
+            gap: 10rem;
+        }
     }
 
     a {
         text-decoration: none;
         font-family: 'Questrial', sans-serif;
+        letter-spacing: 1px;
         color: rgb(92, 118, 182);
 
         &:visited {
@@ -36,6 +41,11 @@
 
         &:active {
             color: rgb(92, 118, 182);
+        }
+
+        @media (min-width: 768px) {
+            font-size: 20px;
+            letter-spacing: 2px;
         }
     }
 }

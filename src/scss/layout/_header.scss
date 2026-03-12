@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
     scroll-margin-top: 40px;
 
     &__content {
@@ -26,7 +25,11 @@
         font-family: 'Syncopate', sans-serif;
         text-align: center;
         text-transform: uppercase;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 700;
+
+        @media (min-width: 768px) {
+            font-size: 15px;
+        }
     }
 }
